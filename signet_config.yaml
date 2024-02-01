@@ -2,17 +2,17 @@
 #Required project-specific directory and files
 gwas_filename: _GWAS_rows.txt
 snploc_filename: _rsid_GRCh38p13.txt
-feature_initscore_filename: feature_initscore_one.txt #_one.txt #_zero.txt #feature_initscore.txt
+feature_initscore_filename: feature_initscore_one.txt
 
 
 #Required common directory and files
-path: /Users/z/Dropbox/Bader_Mousavi
+path: /Users/
 data_dir: ./data
 results_dir: ./results
 ppi_filename: Protein/human_annotated_PPIs_2021_05.txt
 protein_gene_filename: Protein/uniprot_gene.tab
 trrust_filename: Trrust/trrust_rawdata.human.tsv
-gene_filename: Ensembl/GeneType_GRCh38p13_June2022.txt
+gene_filename: Ensembl/GeneType_GRCh38p13.txt
 
 
 #Optional project-specific files: include as *_genes.txt
