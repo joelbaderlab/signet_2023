@@ -30,5 +30,5 @@ rule run_signet:
         dummyfile
     shell:
         """
-        /usr/bin/env python {progname} -s0 0 -s1 10 -d 248000
+        /usr/bin/env python {progname} -s0 0 -s1 1 -d 250000
         """
